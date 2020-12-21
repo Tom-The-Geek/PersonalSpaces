@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "me.geek.tom.personalspace.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinPlayerManager"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

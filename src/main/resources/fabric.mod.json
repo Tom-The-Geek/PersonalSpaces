@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "personal-space",
+  "version": "${version}",
+  "name": "PersonalSpace",
+  "description": "Your own little world!",
+  "authors": [
+    "Tom_The_Geek"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/personal-space/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.geek.tom.personalspace.PersonalSpace"
+    ],
+    "client": [],
+    "server": [],
+    "cardinal-components-entity": [
+      "me.geek.tom.personalspace.PersonalSpace"
+    ]
+  },
+  "mixins": [
+    "personal-space.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.8",
+    "fabric": "*"
+  },
+  "custom": {
+    "cardinal-components": [
+      "personal-space:return_info"
+    ]
+  }
+}
